@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="comp2007lab1._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="comp2007lab1.Default" %>
 
 <!DOCTYPE html>
 <!-- Author name-Shweta Chavda -->
@@ -38,6 +38,7 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
+        <a href="App_Data/">App_Data/</a>
         <!-- /.container-fluid -->
     </nav>
     <div class="container">
@@ -50,7 +51,7 @@
                     </div>
                      <div class="form-group">
                         <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true"CausesValidation="true" />
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="true"/>
                     </div>
                      <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
@@ -76,3 +77,4 @@
 
 </body>
 </html>
+

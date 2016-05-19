@@ -10,7 +10,7 @@
 namespace comp2007lab1 {
     
     
-    public partial class _default {
+    public partial class Default {
         
         /// <summary>
         /// form1 control.
@@ -47,6 +47,15 @@ namespace comp2007lab1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LastNameLabel;
+        
+        /// <summary>
+        /// LastNameTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
         
         /// <summary>
         /// AgeLabel control.
